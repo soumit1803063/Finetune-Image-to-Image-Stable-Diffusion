@@ -147,7 +147,7 @@ After running the training, the model will be fine-tuned. For better results, tr
 
 ### **8. Inference Using the Fine-Tuned Model**
 
-The code for inference is available in the [notebook.ipynb](#) file. To use the fine-tuned model, follow these steps:
+The code for inference is available in the [notebook.ipynb](https://github.com/soumit1803063/Finetune-Image-to-Image-Stable-Diffusion/blob/main/notebook.ipynb) file. To use the fine-tuned model, follow these steps:
 
 1. **Loading the Pre-Trained Model:**
 
