@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.python-version
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# Test results
+*.out
+*.test_results
+
+# Django stuff:
+*.env
+db.sqlite3
+media/
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Custom exclusion
+!data/model/Fine_Tuned_LLaMA2
+data/model/*
+data/DB/*
+# Ignore the training script file
+train_dreambooth.py
+
+# Ignore the diffusers folder
+diffusers/
+
+# Ignore the clsdir folder
+clsdir/
+
+# Ignore the FinetunedStableDiffusion folder
+FinetunedStableDiffusion/
+
+# Ignore IDE settings
+.idea/
+.vscode/
+*.swp
