@@ -181,7 +181,8 @@ The code for inference is available in the [notebook.ipynb](https://github.com/s
 
    ```python
    # Defining the prompt
-   prompt = "A photo of sks dog in a bucket"
+   prompt = "A highly detailed portrait of a dog wearing stylish round glasses, sitting elegantly, with soft lighting and a warm color palette, photorealistic, 8K resolution, intricate fur texture, and a charming expression."
+
 
    # Generating the new image
    image = pipeline(prompt, image=init_image).images[0]
@@ -204,7 +205,7 @@ The code for inference is available in the [notebook.ipynb](https://github.com/s
 
 Here is the input image:
 
-![Input Image](dog/alvan-nee-9M0tSjb-cpA-unsplash.jpeg)
+![Input Image](dog/alvan-nee-bQaAJCbNq3g-unsplash.jpeg)
 
 Here is the generated image:
 
@@ -214,7 +215,7 @@ And here is the input vs. generated image comparison:
 
 ![Input vs Generated](Given-image-vs-Generated-Image.png)
 
-**The generated image is terrific** because we have run the training for only **100 steps**. Now, we are running it for **1000 steps**. After the run is completed, we will upload the newly generated image.
+
 
 ---
 
